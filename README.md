@@ -3,7 +3,8 @@ Built a RISC-V CPU Core using Transaction-Level Verilog on MakerChip platform.
 
 
 
-RISC-V CPU Block Diagram:
+**RISC-V CPU Block Diagram:**
+
 ![CPU](https://github.com/user-attachments/assets/541a09ac-781a-4ee2-a012-331334622573)
 
 1. PC Logic: This logic is responsible for the program counter (PC). The PC identifies the instruction our CPU will execute next. Most instructions execute sequentially, meaning the default behavior of the PC is to increment to the following instruction each clock cycle. Branch and jump instructions, however, are non-sequential. They specify a target instruction to execute next, and the PC logic must update the PC accordingly.
