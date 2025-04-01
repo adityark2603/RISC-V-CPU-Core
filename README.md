@@ -1,5 +1,5 @@
 # RISC-V-CPU-Core
-Built a RISC-V CPU Core using Transaction-Level Verilog 
+Built a RISC-V CPU Core using Transaction-Level Verilog on MakerChip platform. 
 
 
 
